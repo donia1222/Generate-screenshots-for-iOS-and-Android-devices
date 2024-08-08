@@ -95,5 +95,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ![Logo](https://generate-screenshots.lweb.ch/imagenes/captura24.png)
 
+![Logo](https://generate-screenshots.lweb.ch/imagenes/captura2.png)
+
+
 ![Logo](https://generate-screenshots.lweb.ch/imagenes/captura.png)
 
