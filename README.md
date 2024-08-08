@@ -29,3 +29,36 @@ This web application allows you to generate screenshots and icons for the resolu
    ```sh
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
+
+
+Uploading Images:
+Navigate to the screenshot or icon section.
+Upload an image from your device.
+Select the desired resolutions.
+Click "Submit" to generate the images.
+Changing Language:
+Use the language selector in the top left to change the interface language.
+Changing Theme:
+Use the theme button in the top right to switch between light mode, dark mode, and automatic mode.
+Project Structure
+
+src/ - Application source code.
+components/ - React components used in the application.
+UploadImageIOS.jsx - Component for uploading and processing images for iOS.
+UploadImageAndroid.jsx - Component for uploading and processing images for Android.
+UploadIconIOS.jsx - Component for uploading and processing icons for iOS.
+UploadIconAndroid.jsx - Component for uploading and processing icons for Android.
+MainPage.jsx - Main component that handles navigation and theme switching.
+config/ - i18n configuration for internationalization.
+i18n.js - i18n configuration and resources.
+styles/ - CSS style files.
+styles.css - Global application styles.
+public/ - Publicly accessible files from the server root.
+images/ - Directory for images (sample icons and screenshots).
+Technologies Used
+
+Astro: Static framework for building the application.
+React: JavaScript library for building the user interface.
+i18next: Library for internationalization.
+react-toastify: Library for toast notifications.
+FontAwesome: Icon library to enhance the user interface.
