@@ -12,7 +12,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 const MainPage = () => {
   const { t, i18n } = useTranslation();
   const [visibleSection, setVisibleSection] = useState('main');
-  const [theme, setTheme] = useState('auto');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     const applyTheme = (theme) => {

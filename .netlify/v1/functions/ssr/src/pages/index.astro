@@ -1,0 +1,25 @@
+---
+import MainPage from '../components/MainPage.jsx';
+import seoTranslations from '../config/seo.js';
+import i18n from '../config/i18n';
+
+import '../styles/styles.css';
+
+const lang = i18n.language || 'es';
+const seoDescription = seoTranslations[lang]?.description || seoTranslations.en.description;
+---
+
+<!DOCTYPE html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{i18n.t('titleMain')}</title>
+    <meta name="description" content={seoDescription}>
+  </head>
+  <body>
+    <main>
+      <MainPage client:load />
+    </main>
+  </body>
+</html>

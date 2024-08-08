@@ -137,21 +137,7 @@ const UploadImageAndroid = () => {
             />
             {t('tablet')}
           </label>
-          <label>
-            <input
-              type="checkbox"
-              value="all"
-              onChange={(event) => {
-                const { checked } = event.target;
-                if (checked) {
-                  setSelectedResolutions(Object.keys(resolutions));
-                } else {
-                  setSelectedResolutions([]);
-                }
-              }}
-            />
-            {t('allResolutions')}
-          </label>
+
         </fieldset>
 
         <button type="submit">{t('submit')}</button>
