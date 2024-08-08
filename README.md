@@ -1,7 +1,5 @@
 # Screenshot and Icon Generator for iOS and Android
 
-![Logo](https://lweb.ch/images/logo1.png)
-
 This web application allows you to generate screenshots and icons for the resolutions required by Apple and Google. It is built using Astro, React, and i18next for internationalization, and it is fully compatible with different themes (light mode, dark mode, and auto mode based on the operating system).
 
 ## Features
@@ -90,3 +88,12 @@ Open a Pull Request in the original repository.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+![Logo](https://generate-screenshots.lweb.ch/imagenes/captura5.png)
+
+![Logo](https://generate-screenshots.lweb.ch/imagenes/captura6.png)
+
+![Logo](https://generate-screenshots.lweb.ch/imagenes/captura24.png)
+
+![Logo](https://generate-screenshots.lweb.ch/imagenes/captura.png)
+
