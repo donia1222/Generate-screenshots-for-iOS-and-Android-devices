@@ -27,19 +27,26 @@ This web application allows you to generate screenshots and icons for the resolu
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/donia1222/Generate-screenshots-for-iOS-and-Android-devices
+   cd Generate-screenshots-for-iOS-and-Android-devices
+Install dependencies:
+sh
+Copiar código
+npm install
+Start the development server:
+sh
 
+npm run dev
 Usage
 
-Uploading Images:
+Uploading Images
 Navigate to the screenshot or icon section.
 Upload an image from your device.
 Select the desired resolutions.
 Click "Submit" to generate the images.
-Changing Language:
+Changing Language
 Use the language selector in the top left to change the interface language.
-Changing Theme:
+Changing Theme
 Use the theme button in the top right to switch between light mode, dark mode, and automatic mode.
 Project Structure
 
@@ -63,3 +70,29 @@ React: JavaScript library for building the user interface.
 i18next: Library for internationalization.
 react-toastify: Library for toast notifications.
 FontAwesome: Icon library to enhance the user interface.
+Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the project.
+Clone your fork:
+sh
+
+git clone https://github.com/your-username/your-fork.git
+Create a branch for your feature or fix:
+sh
+
+git checkout -b my-new-feature
+Make your changes and commit:
+sh
+
+git commit -m "Add new feature"
+Push to your branch:
+sh
+
+git push origin my-new-feature
+Open a Pull Request in the original repository.
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
