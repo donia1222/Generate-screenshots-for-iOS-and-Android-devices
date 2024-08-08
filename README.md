@@ -1,34 +1,6 @@
-<<<<<<< HEAD
-# Generate-screenshots-for-iOS-and-Android-devices
-
-This project allows generating screenshots and icons for iOS and Android devices.
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-=======
-
-
 # Screenshot and Icon Generator for iOS and Android
 
-https://generate-screenshots.lweb.ch
-
 ![Logo](https://lweb.ch/images/logo1.png)
-
-![Logo](https://lweb.ch/images/logo2.png)
 
 This web application allows you to generate screenshots and icons for the resolutions required by Apple and Google. It is built using Astro, React, and i18next for internationalization, and it is fully compatible with different themes (light mode, dark mode, and auto mode based on the operating system).
 
@@ -59,14 +31,7 @@ This web application allows you to generate screenshots and icons for the resolu
    ```sh
    git clone https://github.com/donia1222/Generate-screenshots-for-iOS-and-Android-devices
    cd Generate-screenshots-for-iOS-and-Android-devices
-Install dependencies:
-sh
-Copiar código
-npm install
-Start the development server:
-sh
 
-npm run dev
 Usage
 
 Uploading Images
@@ -107,23 +72,21 @@ Contributions are welcome! Please follow these steps to contribute:
 Fork the project.
 Clone your fork:
 sh
-
+Copiar código
 git clone https://github.com/your-username/your-fork.git
 Create a branch for your feature or fix:
 sh
-
+Copiar código
 git checkout -b my-new-feature
 Make your changes and commit:
 sh
-
+Copiar código
 git commit -m "Add new feature"
 Push to your branch:
 sh
-
+Copiar código
 git push origin my-new-feature
 Open a Pull Request in the original repository.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
->>>>>>> f1252455ac65688572af1ade801e77198cf70136
