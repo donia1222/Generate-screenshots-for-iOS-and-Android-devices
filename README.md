@@ -30,6 +30,7 @@ This web application allows you to generate screenshots and icons for the resolu
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
 
+Usage
 
 Uploading Images:
 Navigate to the screenshot or icon section.
